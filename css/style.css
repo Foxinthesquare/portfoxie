@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/walp2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  /* margin-bottom: 10%; */
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+  border-radius: 2%;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  color: #8e44ad;
+  /* margin: 20px 0 20px 0; */
+  /* color: white; */
+}
+
+.box h5 {
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #e74c3c;
+  /* margin: 35px 0 35px 0; */
+  /* color: white; */
+}
+
+.box p {
+  text-align: justify;
+  color: #bdc3c7;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+  color: #e74c3c;
+}
+
+@media screen and (max-width: 320px) {
+  .box {
+    width: 13rem;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    margin-bottom: 5%;
+  }
+}
